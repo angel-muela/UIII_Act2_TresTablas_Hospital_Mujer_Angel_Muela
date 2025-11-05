@@ -35,7 +35,7 @@ carpeta.
 
 12 Aqui el modelo models.py
 
-=-=-=-=-=-
+
 from django.db import models
 ==========================================
 MODELO: Beneficiaria
