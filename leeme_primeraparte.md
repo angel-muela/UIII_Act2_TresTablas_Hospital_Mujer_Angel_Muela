@@ -57,36 +57,67 @@ python manage.py startapp app_Hospital
 Vamos a crear la estructura de carpetas y archivos ahora, aunque algunos estarán vacíos por el momento.
 code
 Code
+
 UIII_Hospitaldelamujer_0290/
+
 ├── .venv/
+
 ├── backend_Hospitalmujer/
+
 │   ├── __init__.py
+
 │   ├── asgi.py
+
 │   ├── settings.py
+
 │   ├── urls.py
+
 │   └── wsgi.py
+
 ├── app_Hospital/
+
 │   ├── migrations/
+
 │   │   └── __init__.py
+
 │   ├── templates/
+
 │   │   └── beneficiaria/
+
 │   │       ├── agregar_beneficiaria.html
+
 │   │       ├── actualizar_beneficiaria.html
+
 │   │       ├── borrar_beneficiaria.html
+
 │   │       └── ver_beneficiarias.html
+
 │   │   ├── base.html
+
 │   │   ├── header.html
+
 │   │   ├── navbar.html
+
 │   │   ├── footer.html
+
 │   │   └── inicio.html
+
 │   ├── __init__.py
+
 │   ├── admin.py
+
 │   ├── apps.py
+
 │   ├── models.py
+
 │   ├── tests.py
+
 │   ├── urls.py  <-- ¡Lo crearemos nosotros!
+
 │   └── views.py
+
 └── manage.py
+
 Puedes crear estas carpetas y archivos manualmente en VS Code o usar comandos mkdir y touch en la terminal.
 12. Aquí el modelo models.py
 Abre app_Hospital/models.py y pega el siguiente código:
